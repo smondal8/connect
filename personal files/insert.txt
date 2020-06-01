@@ -1,0 +1,49 @@
+INSERT INTO `connect`.`user_info` (
+`userid` ,
+`password` ,
+`image` ,
+`email` ,
+`lastlogin` 
+)
+VALUES (
+'soumya', SHA1( 'pass' ) , 'OgAAAMXewKmvtkNZcR1VwIFTbVLLuhemVV7jd-tVYjtNHawCXIvzLfU0dqBfXl6vMM6_ml4TATE7JInJACarL5-gUHUAm1T1UPhzqcsxOMtmUdvroibNKjoYYbR5.jpg', 's.mondal8@gmail.com', ''
+);
+
+
+
+
+
+
+
+
+
+
+INSERT INTO `connect`.`user_info_general` (
+`userid` ,
+`first_name` ,
+`last_name` ,
+`city` ,
+`state` ,
+`country` ,
+`rel_status` ,
+`sex` ,
+`dob` ,
+`pin` 
+)
+VALUES (
+'soumya', 'Soumya', 'Mondal', 'chandernagar', 'WestBengal', 'India', 'Single', 'Male', '3/4/1989', '712136'
+);
+
+
+
+
+
+
+
+INSERT INTO `connect`.`friend_req` (
+`user` ,
+`friend` 
+)
+VALUES (
+'soumya', 'soumya'
+);

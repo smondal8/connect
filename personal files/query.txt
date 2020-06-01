@@ -1,0 +1,86 @@
+CREATE TABLE `connect`.`user_info` (
+`userid` VARCHAR( 20 ) NOT NULL ,
+`password` VARCHAR( 160 ) NOT NULL ,
+`image` VARCHAR( 160 ) NOT NULL ,
+`email` VARCHAR( 100 ) NOT NULL ,
+`lastlogin` VARCHAR( 50 ) NOT NULL ,
+PRIMARY KEY ( `userid` ) 
+) ENGINE = InnoDB
+
+
+
+ALTER TABLE `user_info` ADD UNIQUE (
+`userid` 
+)
+
+
+CREATE TABLE `connect`.`friend` (
+`user` VARCHAR( 20 ) NOT NULL ,
+`friend` VARCHAR( 20 ) NOT NULL 
+) ENGINE = InnoDB 
+
+
+
+CREATE TABLE `connect`.`user_info_general` (
+`userid` VARCHAR( 20 ) NOT NULL ,
+`first_name` VARCHAR( 25 ) NOT NULL ,
+`last_name` VARCHAR( 25 ) NOT NULL ,
+`city` VARCHAR( 25 ) NOT NULL ,
+`state` VARCHAR( 25 ) NOT NULL ,
+`country` VARCHAR( 25 ) NOT NULL ,
+`rel_status` VARCHAR( 15 ) NOT NULL ,
+`sex` VARCHAR( 10 ) NOT NULL ,
+`dob` VARCHAR( 20 ) NOT NULL ,
+`pin` VARCHAR( 10 ) NOT NULL ,
+PRIMARY KEY ( `userid` ) 
+) ENGINE = InnoDB
+
+
+
+
+
+
+
+CREATE TABLE `connect`.`user_info_pro` (
+`userid` VARCHAR( 20 ) NOT NULL ,
+`degree` VARCHAR( 20 ) NOT NULL ,
+`skill` VARCHAR( 100 ) NOT NULL ,
+`drream` VARCHAR( 100 ) NOT NULL ,
+`after_10_years` VARCHAR( 100 ) NOT NULL ,
+`subject` VARCHAR( 100 ) NOT NULL ,
+PRIMARY KEY ( `userid` ) 
+) ENGINE = InnoDB
+
+
+
+
+CREATE TABLE `connect`.`user_info_personal` (
+`userid` VARCHAR( 20 ) NOT NULL ,
+`abt_me` VARCHAR( 1000 ) NULL ,
+`perfectmatch` VARCHAR( 1000 ) NOT NULL ,
+`best_feature` VARCHAR( 1000 ) NOT NULL ,
+`idea_of_a_date` VARCHAR( 1000 ) NOT NULL ,
+`five_things` VARCHAR( 1000 ) NOT NULL ,
+`extra_curricular` VARCHAR( 1000 ) NOT NULL ,
+PRIMARY KEY ( `userid` )
+) ENGINE = MYISAM 
+
+
+
+
+CREATE TABLE `connect`.`message` (
+`id` BIGINT NOT NULL AUTO_INCREMENT ,
+`user` VARCHAR( 20 ) NOT NULL ,
+`sender` VARCHAR( 20 ) NOT NULL ,
+`body` VARCHAR( 1000 ) NOT NULL ,
+`date` VARCHAR( 50 ) NOT NULL ,
+PRIMARY KEY ( `id` ) ,
+INDEX ( `id` ) 
+) ENGINE = InnoDB
+
+
+
+CREATE TABLE `connect`.`friend_req` (
+`user` VARCHAR( 20 ) NOT NULL ,
+`friend` VARCHAR( 20 ) NOT NULL 
+) ENGINE = InnoDB

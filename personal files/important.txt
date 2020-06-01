@@ -1,0 +1,106 @@
+///////////////////////friend request/////////////////////
+
+if(isSet($_SESSION['user'])&& $_SESSION['user']==$_SESSION['currentuser'])
+{
+////////////retrieving data from friend_req///////////////////////////
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><th colspan="4"><h1>Friend Request :</h1></th>
+      <tr><td><img src="document images/user image/OgAAAMXewKmvtkNZcR1VwIFTbVLLuhemVV7jd-tVYjtNHawCXIvzLfU0dqBfXl6vMM6_ml4TATE7JInJACarL5-gUHUAm1T1UPhzqcsxOMtmUdvroibNKjoYYbR5.jpg" width="50 px" height=" 50 px"></td>
+      <td> Piya Mondal is friend?</td>
+      <td><input name="yes" type="button" value="Yes"></td><td><input name="no" type="button" value="no"></td>
+      </tr>
+      <tr><td><img src="document images/user image/OgAAAMXewKmvtkNZcR1VwIFTbVLLuhemVV7jd-tVYjtNHawCXIvzLfU0dqBfXl6vMM6_ml4TATE7JInJACarL5-gUHUAm1T1UPhzqcsxOMtmUdvroibNKjoYYbR5.jpg" width="50 px" height=" 50 px"></td>
+      <td> Piya Mondal is friend?</td>
+      <td><input name="yes" type="button" value="Yes"></td><td><input name="no" type="button" value="no"></td>
+      </tr>
+      <tr><td><img src="document images/user image/OgAAAMXewKmvtkNZcR1VwIFTbVLLuhemVV7jd-tVYjtNHawCXIvzLfU0dqBfXl6vMM6_ml4TATE7JInJACarL5-gUHUAm1T1UPhzqcsxOMtmUdvroibNKjoYYbR5.jpg" width="50 px" height=" 50 px"></td>
+      <td> Piya Mondal is friend?</td>
+      <td><input name="yes" type="button" value="Yes"></td><td><input name="no" type="button" value="no"></td>
+      </tr>
+      <tr><td><img src="document images/user image/OgAAAMXewKmvtkNZcR1VwIFTbVLLuhemVV7jd-tVYjtNHawCXIvzLfU0dqBfXl6vMM6_ml4TATE7JInJACarL5-gUHUAm1T1UPhzqcsxOMtmUdvroibNKjoYYbR5.jpg" width="50 px" height=" 50 px"></td>
+      <td> Piya Mondal is friend?</td>
+      <td><input name="yes" type="button" value="Yes"></td><td><input name="no" type="button" value="no"></td>
+      </tr>
+      <tr><td><img src="document images/user image/OgAAAMXewKmvtkNZcR1VwIFTbVLLuhemVV7jd-tVYjtNHawCXIvzLfU0dqBfXl6vMM6_ml4TATE7JInJACarL5-gUHUAm1T1UPhzqcsxOMtmUdvroibNKjoYYbR5.jpg" width="50 px" height=" 50 px"></td>
+      <td> Piya Mondal is friend?</td>
+      <td><input name="yes" type="button" value="Yes"></td><td><input name="no" type="button" value="no"></td>
+      </tr>
+      </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr><td><input name="img1" type="image" src="document images/user image/" height="50 px" width="50 px"/><br /><a href="" ></a></td><td><input name="img1" type="image" src="document images/user image/OgAAAMXewKmvtkNZcR1VwIFTbVLLuhemVV7jd-tVYjtNHawCXIvzLfU0dqBfXl6vMM6_ml4TATE7JInJACarL5-gUHUAm1T1UPhzqcsxOMtmUdvroibNKjoYYbR5.jpg" height="50 px" width="50 px"/><br /><a href="" >Soumya</a></td><td><input name="img1" type="image" src="document images/user image/OgAAAMXewKmvtkNZcR1VwIFTbVLLuhemVV7jd-tVYjtNHawCXIvzLfU0dqBfXl6vMM6_ml4TATE7JInJACarL5-gUHUAm1T1UPhzqcsxOMtmUdvroibNKjoYYbR5.jpg" height="50 px" width="50 px"/><br /><a href="" >Soumya</a></td></tr>
+<tr><td><input name="img1" type="image" src="document images/user image/OgAAAMXewKmvtkNZcR1VwIFTbVLLuhemVV7jd-tVYjtNHawCXIvzLfU0dqBfXl6vMM6_ml4TATE7JInJACarL5-gUHUAm1T1UPhzqcsxOMtmUdvroibNKjoYYbR5.jpg" height="50 px" width="50 px"/><br /><a href="" >Soumya</a></td><td><input name="img1" type="image" src="document images/user image/OgAAAMXewKmvtkNZcR1VwIFTbVLLuhemVV7jd-tVYjtNHawCXIvzLfU0dqBfXl6vMM6_ml4TATE7JInJACarL5-gUHUAm1T1UPhzqcsxOMtmUdvroibNKjoYYbR5.jpg" height="50 px" width="50 px"/><br /><a href="" >Soumya</a></td><td><input name="img1" type="image" src="document images/user image/OgAAAMXewKmvtkNZcR1VwIFTbVLLuhemVV7jd-tVYjtNHawCXIvzLfU0dqBfXl6vMM6_ml4TATE7JInJACarL5-gUHUAm1T1UPhzqcsxOMtmUdvroibNKjoYYbR5.jpg" height="50 px" width="50 px"/><br /><a href="" >Soumya</a></td></tr>
+<tr><td><input name="img1" type="image" src="document images/user image/OgAAAMXewKmvtkNZcR1VwIFTbVLLuhemVV7jd-tVYjtNHawCXIvzLfU0dqBfXl6vMM6_ml4TATE7JInJACarL5-gUHUAm1T1UPhzqcsxOMtmUdvroibNKjoYYbR5.jpg" height="50 px" width="50 px"/><br /><a href="" >Soumya</a></td><td><input name="img1" type="image" src="document images/user image/OgAAAMXewKmvtkNZcR1VwIFTbVLLuhemVV7jd-tVYjtNHawCXIvzLfU0dqBfXl6vMM6_ml4TATE7JInJACarL5-gUHUAm1T1UPhzqcsxOMtmUdvroibNKjoYYbR5.jpg" height="50 px" width="50 px"/><br /><a href="" >Soumya</a></td><td><input name="img1" type="image" src="document images/user image/OgAAAMXewKmvtkNZcR1VwIFTbVLLuhemVV7jd-tVYjtNHawCXIvzLfU0dqBfXl6vMM6_ml4TATE7JInJACarL5-gUHUAm1T1UPhzqcsxOMtmUdvroibNKjoYYbR5.jpg" height="50 px" width="50 px"/><br /><a href="" >Soumya</a></td></tr>
+
+
+
+
+
+
+
+
+Message
+
+
+
+
+<tr>
+    <td width="10%"><img src="document images/user image/OgAAAMXewKmvtkNZcR1VwIFTbVLLuhemVV7jd-tVYjtNHawCXIvzLfU0dqBfXl6vMM6_ml4TATE7JInJACarL5-gUHUAm1T1UPhzqcsxOMtmUdvroibNKjoYYbR5.jpg" width="50 px" height="50 px"></td>
+    <td><a href="">Ashoke</a><br/><label>hi kire ki khobor?????kmn cholche din kal????khawadaoa thik thak korchis?</label></td>
+    <td><?php echo date("F j, Y, g:i a") ?></td>
+    <td><input name="del" type="button" value="Delete"></td>
+  </tr>
+   <tr>
+    <td width="10%"><img src="document images/user image/OgAAAMXewKmvtkNZcR1VwIFTbVLLuhemVV7jd-tVYjtNHawCXIvzLfU0dqBfXl6vMM6_ml4TATE7JInJACarL5-gUHUAm1T1UPhzqcsxOMtmUdvroibNKjoYYbR5.jpg" width="50 px" height="50 px"></td>
+    <td><a href="">Ashoke</a><br/><label>hi kire ki khobor?????kmn cholche din kal????khawadaoa thik thak korchis?</label></td>
+    <td><?php echo date("F j, Y, g:i a") ?></td>
+    <td><input name="del" type="button" value="Delete"></td>
+  </tr>
+   <tr>
+    <td width="10%"><img src="document images/user image/OgAAAMXewKmvtkNZcR1VwIFTbVLLuhemVV7jd-tVYjtNHawCXIvzLfU0dqBfXl6vMM6_ml4TATE7JInJACarL5-gUHUAm1T1UPhzqcsxOMtmUdvroibNKjoYYbR5.jpg" width="50 px" height="50 px"></td>
+    <td><a href="">Ashoke</a><br/><label>hi kire ki khobor?????kmn cholche din kal????khawadaoa thik thak korchis?</label></td>
+    <td><?php echo date("F j, Y, g:i a") ?></td>
+    <td><input name="del" type="button" value="Delete"></td>
+  </tr>
+   <tr>
+    <td width="10%"><img src="document images/user image/OgAAAMXewKmvtkNZcR1VwIFTbVLLuhemVV7jd-tVYjtNHawCXIvzLfU0dqBfXl6vMM6_ml4TATE7JInJACarL5-gUHUAm1T1UPhzqcsxOMtmUdvroibNKjoYYbR5.jpg" width="50 px" height="50 px"></td>
+    <td><a href="">Ashoke</a><br/><label>hi kire ki khobor?????kmn cholche din kal????khawadaoa thik thak korchis?</label></td>
+    <td><?php echo date("F j, Y, g:i a") ?></td>
+    <td><input name="del" type="button" value="Delete"></td>
+  </tr>
+   <tr>
+    <td width="10%"><img src="document images/user image/OgAAAMXewKmvtkNZcR1VwIFTbVLLuhemVV7jd-tVYjtNHawCXIvzLfU0dqBfXl6vMM6_ml4TATE7JInJACarL5-gUHUAm1T1UPhzqcsxOMtmUdvroibNKjoYYbR5.jpg" width="50 px" height="50 px"></td>
+    <td><a href="">Ashoke</a><br/><label>hi kire ki khobor?????kmn cholche din kal????khawadaoa thik thak korchis?</label></td>
+    <td><?php echo date("F j, Y, g:i a") ?></td>
+    <td><input name="del" type="button" value="Delete"></td>
+  </tr>
+
+
+
+
+

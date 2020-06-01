@@ -1,0 +1,1 @@
+select user_info.userid,user_info.image,user_info_general.first_name,user_info_general.last_name,user_info_general.city,user_info_general.state,user_info_general.country,user_info_general.rel_status,user_info_general.sex from user_info inner join user_info_general on user_info.userid=user_info_general.userid where user_info.userid='soumya';
